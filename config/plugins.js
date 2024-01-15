@@ -7,7 +7,7 @@ module.exports = {
       // Pass credentials and other options to the provider
       providerOptions: {
         // your API key - required and wil cause errors if not provided
-        apiKey: "1cbf5db0-aa3b-baf6-8a93-a2fb321ca7dc:fx",
+        apiKey: process.env.DEEPL_API_KEY,
         // use custom api url - optional
         apiUrl: "https://api-free.deepl.com",
         // use custom locale mapping (for example 'en' locale is deprecated so need to choose between 'EN-GB' and 'EN-US')
